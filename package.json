@@ -31,5 +31,10 @@
   "devDependencies": {
     "minify": "^1.0.4",
     "uglify-js": "^2.4.15"
+  },
+  "standard":{
+    "ignore": [
+      "**/*"
+    ]
   }
 }
