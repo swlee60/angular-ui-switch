@@ -1,0 +1,93 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home1/irteam/apps/bin/node',
+1 verbose cli   '/home1/irteam/apps/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home1/irteam/dev/angular-ui-switch',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home1/irteam/.npm/angular-ui-switch/0.1.1/package.tgz not in flight; packing
+9 verbose correctMkdir /home1/irteam/.npm correctMkdir not in flight; initializing
+10 verbose tar pack [ '/home1/irteam/.npm/angular-ui-switch/0.1.1/package.tgz',
+10 verbose tar pack   '/home1/irteam/dev/angular-ui-switch' ]
+11 verbose tarball /home1/irteam/.npm/angular-ui-switch/0.1.1/package.tgz
+12 verbose folder /home1/irteam/dev/angular-ui-switch
+13 info prepublish angular-ui-switch@0.1.1
+14 verbose addLocalTarball adding from inside cache /home1/irteam/.npm/angular-ui-switch/0.1.1/package.tgz
+15 verbose correctMkdir /home1/irteam/.npm correctMkdir not in flight; initializing
+16 silly cache afterAdd angular-ui-switch@0.1.1
+17 verbose afterAdd /home1/irteam/.npm/angular-ui-switch/0.1.1/package/package.json not in flight; writing
+18 verbose correctMkdir /home1/irteam/.npm correctMkdir not in flight; initializing
+19 verbose afterAdd /home1/irteam/.npm/angular-ui-switch/0.1.1/package/package.json written
+20 silly publish { name: 'angular-ui-switch',
+20 silly publish   version: '0.1.1',
+20 silly publish   description: 'iOS 7 style switch directive for AngularJS',
+20 silly publish   main: 'angular-ui-switch.js',
+20 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+20 silly publish   repository:
+20 silly publish    { type: 'git',
+20 silly publish      url: 'git://github.com/xpepermint/angular-ui-switch.git' },
+20 silly publish   keywords:
+20 silly publish    [ 'angular',
+20 silly publish      'angularjs',
+20 silly publish      'ui',
+20 silly publish      'directive',
+20 silly publish      'switch',
+20 silly publish      'on',
+20 silly publish      'off',
+20 silly publish      'button',
+20 silly publish      'checkbox',
+20 silly publish      'form' ],
+20 silly publish   author: { name: 'xpeper', email: 'xpepermint@gmail.com' },
+20 silly publish   license: 'MIT',
+20 silly publish   bugs: { url: 'https://github.com/xpepermint/angular-ui-switch/issues' },
+20 silly publish   homepage: 'https://github.com/xpepermint/angular-ui-switch',
+20 silly publish   devDependencies: { minify: '^1.0.4', 'uglify-js': '^2.4.15' },
+20 silly publish   readme: '# [angular](https://angularjs.org/)-ui-switch\n\nThis is a simple iOS 7 style switch directive for AngularJS. You can use this module as you would use the default HTML checkbox input element. This is a super lightweight module and you can completely change the design using just CSS.\n\nSupported by all modern browsers: Chrome, Firefox, Opera, Safari, IE8+\n\n![YoomJS](https://raw.githubusercontent.com/xpepermint/angular-ui-switch/master/logo.png)\n\nInspired by [switchery](https://github.com/abpetkov/switchery) - in angular way.\n\n## Installation\n\nDownload the package from `github`. The package is also available over `npm install angular-ui-switch` or `bower install angular-ui-switch`.\n\nInclude `javascript` and `css` files into your page.\n\n```html\n<!DOCTYPE html>\n<html lang="en" ng-app="app">\n<head>\n  ...\n  <link rel="stylesheet" href="/ui-switch.min.css"/>\n</head>\n<body>\n  ...\n  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.3/angular.min.js"></script>\n  <script src="/ui-switch.min.js"></script>\n</body>\n</html>\n```\n\nDeclare a dependency on the module.\n\n```js\nangular.module(\'myModule\', [\'uiSwitch\']);\n```\n\nInsert the switch in your html template.\n\n```html\n<form>\n  <switch id="enabled" name="enabled" ng-model="enabled" class="green"></switch>\n  <br>{{ enabled }}\n</form>\n```\n\nAdd optional on/off text\n```html\n<form>\n  <switch id="enabled" name="enabled" ng-model="enabled" on="On" off="Off" class="green"></switch>\n  <br>{{ enabled }}\n</form>\n```\n\nDisabled state\n```html\n<form>\n  <switch id="enabled" name="enabled" ng-model="enabled" disabled="true" class="green"></switch>\n  <br>{{ enabled }}\n</form>\n```\n\n## Design\n\nYou can completely change the design. All the magic is hidden inside two CSS classes.\n\n```css\n.switch {\n  /* frame */\n}\n.switch small {\n  /* button */\n}\n.switch.checked {\n  /* frame when enabled */\n}\n.switch.checked small {\n  /* button when enabled */\n}\n```\n\n## Publishing\n\n1. Update version in `package.json` and `bower.json`.\n\n2. Run `make compile` to minify files.\n\n3. Run `make publish` to publish.\n',
+20 silly publish   readmeFilename: 'README.md',
+20 silly publish   gitHead: 'bde4711ed82d4e54c8173232e2e6fc17c2d2b3e4',
+20 silly publish   _id: 'angular-ui-switch@0.1.1',
+20 silly publish   _shasum: '655380bc49f98934b4468aa9e1430e338f53f037',
+20 silly publish   _from: '.' }
+21 verbose getPublishConfig undefined
+22 silly mapToRegistry name angular-ui-switch
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'angular-ui-switch',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'angular-ui-switch',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/angular-ui-switch
+27 verbose publish registryBase https://registry.npmjs.org/
+28 silly publish uploading /home1/irteam/.npm/angular-ui-switch/0.1.1/package.tgz
+29 verbose stack Error: auth required for publishing
+29 verbose stack     at CachingRegistryClient.publish (/home1/irteam/apps/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+29 verbose stack     at /home1/irteam/apps/lib/node_modules/npm/lib/publish.js:134:14
+29 verbose stack     at mapToRegistry (/home1/irteam/apps/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+29 verbose stack     at publish_ (/home1/irteam/apps/lib/node_modules/npm/lib/publish.js:104:3)
+29 verbose stack     at Array.<anonymous> (/home1/irteam/apps/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+29 verbose stack     at LOOP (/home1/irteam/apps/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+29 verbose stack     at LOOP (/home1/irteam/apps/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+29 verbose stack     at chain (/home1/irteam/apps/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+29 verbose stack     at /home1/irteam/apps/lib/node_modules/npm/lib/publish.js:73:5
+29 verbose stack     at RES (/home1/irteam/apps/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+30 verbose cwd /home1/irteam/dev/angular-ui-switch
+31 error Linux 2.6.32-573.7.1.el6.x86_64
+32 error argv "/home1/irteam/apps/bin/node" "/home1/irteam/apps/bin/npm" "publish"
+33 error node v4.4.3
+34 error npm  v2.15.1
+35 error code ENEEDAUTH
+36 error need auth auth required for publishing
+36 error need auth You need to authorize this machine using `npm adduser`
+37 verbose exit [ 1, true ]
